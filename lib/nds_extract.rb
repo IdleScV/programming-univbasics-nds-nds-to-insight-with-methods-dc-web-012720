@@ -23,6 +23,8 @@ def directors_totals(nds)
   while nds[count] do
   key = nds[count][:name]
   value = gross_for_director(count)
-  results
+  results[key] = [value]
+  count += 1
   end
+  return results
 end
