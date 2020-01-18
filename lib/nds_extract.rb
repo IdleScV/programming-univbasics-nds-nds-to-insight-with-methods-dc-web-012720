@@ -29,5 +29,5 @@ def directors_totals(nds)
     result[key] = [value]
     count += 1
   end
-  return results
+  return result
 end
