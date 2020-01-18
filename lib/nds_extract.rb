@@ -18,5 +18,6 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   result = {}
-  nil
+  while 
+  gross_for_director()
 end
