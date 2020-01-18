@@ -5,7 +5,8 @@ require 'directors_database'
 # using director_data as input
 def gross_for_director(director_data)
   count = 0;
-  while director_data[:movies][count]
+  sum = 0
+  while director_data[:movies][count][:worldwide_grosses] do
   director_data[]
 end
 
